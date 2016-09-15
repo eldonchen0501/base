@@ -39,6 +39,8 @@ GEM
       minitest (~> 5.1)
       tzinfo (~> 1.1)
     addressable (2.4.0)
+    ae_page_objects (2.0.0)
+      capybara (~> 2.1)
     arel (7.0.0)
     ast (2.3.0)
     browserify-rails (3.1.0)
@@ -205,6 +207,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  ae_page_objects
   browserify-rails
   byebug
   capybara
