@@ -1,8 +1,8 @@
 source 'https://rubygems.org'
-ruby '2.3.0'
+ruby '2.4.2'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 5.0.0'
+gem 'rails', '~> 5.1'
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
 # Use SCSS for stylesheets
@@ -48,7 +48,7 @@ end
 group :test do
   gem 'ae_page_objects'
   gem 'capybara'
-  gem 'selenium-webdriver'
+  gem 'selenium-webdriver', '~> 2.53.4'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
