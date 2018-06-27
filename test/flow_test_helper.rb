@@ -10,7 +10,7 @@ module PageObjects
 end
 
 require 'page_objects/document.rb'
-Dir[File.dirname(__FILE__) + '/page_objects/*/*.rb'].each { |file| require file }
+Dir[File.dirname(__FILE__) + '/page_objects/**/*.rb'].each { |file| require file }
 
 class FlowTestCase < ActiveSupport::TestCase
   include Capybara::DSL
